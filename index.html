@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vetor — Sites que funcionam de verdade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brand">Vetor</a>
+    <nav class="nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Como funciona</a>
+      <a href="#planos">Planos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn-small">Pedir orçamento</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <img class="hero-img" src="hero.png" alt="Cubo isométrico com símbolos de código, representando desenvolvimento de sites" />
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <p class="hero-kicker">Estúdio de desenvolvimento web</p>
+    <h1 class="hero-title">Seu site pronto para vender, não só para existir.</h1>
+    <p class="hero-sub">A gente projeta, escreve o código e coloca no ar. Você foca no seu negócio, a gente cuida da sua presença online.</p>
+    <div class="hero-actions">
+      <a href="#contato" class="btn btn-primary">Falar com a gente</a>
+      <a href="#planos" class="btn btn-ghost">Ver planos</a>
+    </div>
+  </div>
+  <button class="scroll-cue" id="scrollCue" aria-label="Rolar para baixo">
+    <span></span>
+  </button>
+</section>
+
+<main>
+
+  <section class="section" id="servicos">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>O que a gente entrega</h2>
+        <p>Cada site é escrito do zero para a sua marca — sem templates genéricos.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service">
+          <h3>Sites institucionais</h3>
+          <p>Uma presença clara e rápida para apresentar sua empresa, seus serviços e como falar com você.</p>
+        </article>
+        <article class="service">
+          <h3>Lojas virtuais</h3>
+          <p>Catálogo, carrinho e pagamento integrados, prontos para vender desde o primeiro dia no ar.</p>
+        </article>
+        <article class="service">
+          <h3>Landing pages</h3>
+          <p>Páginas focadas em converter visitantes em clientes, feitas para campanhas e lançamentos.</p>
+        </article>
+        <article class="service">
+          <h3>Sistemas sob medida</h3>
+          <p>Painéis, áreas de cliente e integrações que automatizam tarefas do seu dia a dia.</p>
+        </article>
+        <article class="service">
+          <h3>Manutenção contínua</h3>
+          <p>Atualizações, backups e suporte para o site continuar rápido e seguro depois de publicado.</p>
+        </article>
+        <article class="service">
+          <h3>SEO e performance</h3>
+          <p>Estrutura pensada para carregar rápido e aparecer bem posicionado nas buscas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="processo">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Como o projeto anda</h2>
+        <p>Quatro etapas, do primeiro papo até o site no ar.</p>
+      </div>
+      <ol class="process">
+        <li class="process-step">
+          <span class="process-mark">1</span>
+          <div>
+            <h3>Conversa inicial</h3>
+            <p>Entendemos seu negócio, seu público e o que o site precisa resolver.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-mark">2</span>
+          <div>
+            <h3>Design</h3>
+            <p>Criamos o layout e a identidade visual, ajustando com você até fazer sentido.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-mark">3</span>
+          <div>
+            <h3>Desenvolvimento</h3>
+            <p>Escrevemos o código, testamos em diferentes telas e revisamos cada detalhe.</p>
+          </div>
+        </li>
+        <li class="process-step">
+          <span class="process-mark">4</span>
+          <div>
+            <h3>Publicação</h3>
+            <p>Colocamos no ar, configuramos o domínio e ensinamos você a atualizar o conteúdo.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="planos">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Planos</h2>
+        <p>Escolha o ponto de partida — todos incluem código próprio e suporte no lançamento.</p>
+      </div>
+      <div class="plans">
+        <article class="plan">
+          <h3>Essencial</h3>
+          <p class="plan-price">R$ 1.490</p>
+          <p class="plan-desc">Site institucional de até 5 páginas, com formulário de contato e otimização para celular.</p>
+          <ul class="plan-list">
+            <li>Design exclusivo</li>
+            <li>Até 5 páginas</li>
+            <li>Formulário de contato</li>
+            <li>Entrega em 3 semanas</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline">Escolher plano</a>
+        </article>
+        <article class="plan plan-featured">
+          <p class="plan-tag">Mais escolhido</p>
+          <h3>Profissional</h3>
+          <p class="plan-price">R$ 3.290</p>
+          <p class="plan-desc">Site completo com blog, SEO técnico e integração com suas redes sociais.</p>
+          <ul class="plan-list">
+            <li>Tudo do plano Essencial</li>
+            <li>Páginas ilimitadas</li>
+            <li>Blog integrado</li>
+            <li>SEO técnico</li>
+            <li>Entrega em 5 semanas</li>
+          </ul>
+          <a href="#contato" class="btn btn-primary">Escolher plano</a>
+        </article>
+        <article class="plan">
+          <h3>Loja virtual</h3>
+          <p class="plan-price">R$ 4.990</p>
+          <p class="plan-desc">E-commerce completo com catálogo, carrinho e pagamento online.</p>
+          <ul class="plan-list">
+            <li>Catálogo de produtos</li>
+            <li>Pagamento online</li>
+            <li>Painel de pedidos</li>
+            <li>Entrega em 7 semanas</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline">Escolher plano</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" id="contato">
+    <div class="section-inner cta-inner">
+      <div>
+        <h2>Vamos colocar seu site no ar?</h2>
+        <p>Responda em poucos minutos e recebemos seu pedido para começar a conversa.</p>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required placeholder="Seu nome">
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required placeholder="voce@empresa.com">
+        </div>
+        <div class="field">
+          <label for="message">Conte sobre o projeto</label>
+          <textarea id="message" name="message" rows="3" required placeholder="O que você precisa no seu site?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Enviar pedido</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <span class="brand brand-footer">Vetor</span>
+    <p>&copy; <span id="year"></span> Vetor Estúdio de Sites. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
